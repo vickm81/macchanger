@@ -37,18 +37,7 @@ def in_sudo_mode():
         exit()
 
 
-print(
-"""
-__________________________________
-                                  |
-mc\    /mc    mcmc       mcmcmc   |
-mc \  / mc   mc  mc    mc         |
-mc  \/  mc  mc -- mc   mc         |
-mc      mc mc      mc    mcmcmc   |
-                                  |
-BY VICKM81                        |
-__________________________________|
-""")
+print(colored(figlet_format("mac changer", font="pagga"), color="blue"))
 
 
 in_sudo_mode()
